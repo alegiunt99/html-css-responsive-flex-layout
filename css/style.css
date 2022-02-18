@@ -290,10 +290,17 @@ font-size: 50px;
 }
 
 .partner-photo img{
-    width: 32%;
+    width: 50%;
     border-radius: 50%;
 }
 
+#nat p,
+#celia p,
+#bob p{
+    margin: 20px 0;
+    padding: 0px 10px;
+    line-height: 1.2rem;
+}
 
 .expert-partners #nat,
 .expert-partners #celia,
@@ -304,6 +311,7 @@ font-size: 50px;
     padding: 20px;
     background-color: #ffa7a7;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 
