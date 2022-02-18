@@ -253,6 +253,34 @@ font-size: 50px;
 
 /*     END SECTION 2    */
 
+
+/*     SECTION 3        */
+
+.expert-partners{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expert-partners > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.expert-partners p{
+    font-size: 16px;
+}
+
+.expert-partners #testimonials span{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*     END SECTION 3      */
+
 /*media queries*/
 
 @media screen and (min-width: 390px) {
