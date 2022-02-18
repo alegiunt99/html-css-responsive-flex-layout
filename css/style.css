@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@ body{
 
 header{
     background-color: rgb(25, 109, 235);
+    margin-bottom: 40px;
 }
 
 .header-content{
@@ -60,12 +61,47 @@ header{
     width: 100%;
 }
 
+.get-demo h2{
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+.get-demo p{
+    font-size: 15px;
+    line-height: 1.2rem;
+    margin-bottom: 29px;
+}
+
+#get-app a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #0072ff;
+    padding: 9px 42px;
+    border-radius: 20px;
+}
+
+#get-app a:hover{
+    background-color: #6fa7eb;
+}
+
+#get-app div{
+    background-color: #d7d2b9;
+    width: 172px;
+    height: 195px;
+    align-self: center;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
 .get-demo #get-app{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: rgb(147, 190, 255);
+    padding: 20px 20px 0px;
 }
+
 
 
 
