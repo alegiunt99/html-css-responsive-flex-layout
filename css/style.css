@@ -64,6 +64,14 @@ header{
     padding: 20px;
 }
 
+.get-demo .function-icon{
+    margin-bottom: 20px;
+}
+
+.get-demo .function-icon i{
+font-size: 50px;
+}
+
 .get-demo h2{
     font-size: 30px;
     margin-bottom: 22px;
@@ -103,7 +111,10 @@ header{
     padding: 20px 20px 0px;
 }
 
-#clean-code h2{
+
+
+#clean-code h2,
+#clean-code i{
     color: green
 }
 
@@ -111,7 +122,8 @@ header{
     background-color: lightgreen;
 }
 
-#web-design h2{
+#web-design h2,
+#web-design i{
     color: rgb(253, 122, 144);
 }
 
@@ -119,7 +131,8 @@ header{
     background-color: lightpink;
 }
 
-#development h2{
+#development h2,
+#development i{
     color: orange;
 }
 
@@ -127,7 +140,10 @@ header{
     background-color: rgb(255, 208, 119);
 }
 
-#branding h2{
+
+
+#branding h2,
+#branding i{
     color: rgb(94, 82, 255);
 }
 
