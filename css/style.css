@@ -169,6 +169,7 @@ font-size: 50px;
 .font-img{
     margin: 20px auto;
     font-size: 12px;
+    text-align: center;
 }
 
 .font-img a{
@@ -254,6 +255,16 @@ font-size: 50px;
 /*     END SECTION 2    */
 
 
+
+
+
+
+
+
+
+
+
+
 /*     SECTION 3        */
 
 .expert-partners{
@@ -330,9 +341,18 @@ font-size: 50px;
     margin-bottom: 30px;
 }
 
-
-
 /*     END SECTION 3      */
+
+
+
+
+/*      SECTION 4         */
+
+
+
+
+/*     END SECTION 4      */
+
 
 /*media queries*/
 
