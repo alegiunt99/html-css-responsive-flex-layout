@@ -348,7 +348,62 @@ font-size: 50px;
 
 /*      SECTION 4         */
 
+.benefits{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(163, 91, 245);
+    padding: 20px;
+}
 
+.benefits #title-benef{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.benefits h2{
+    font-size: 25px;
+    color: white;
+}
+
+.fourth-sec-squares span{
+    font-size: 30px;
+}
+
+.fourth-sec-squares h3{
+    margin: 20px 0px;
+}
+
+.fourth-sec-squares p{
+    font-size: 16px;
+    line-height: 1.1rem;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.fourth-sec-squares a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(163 91 245);
+    padding: 10px 24px;
+    border-radius: 25px;
+}
+
+.fourth-sec-squares a:hover{
+    background-color: rgb(186, 136, 243);
+}
+
+.benefits .fourth-sec-squares{
+    width: 100%;
+    background-color: rgb(225 199 255);
+    padding: 20px;
+    color: rgb(163 91 245);
+    border-radius: 15px;
+    margin-top: 20px;
+}
 
 
 /*     END SECTION 4      */
