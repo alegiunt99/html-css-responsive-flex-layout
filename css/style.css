@@ -274,6 +274,11 @@ font-size: 50px;
     font-size: 16px;
 }
 
+#testimonials h2,
+#testimonials p{
+    margin-bottom: 20px;
+}
+
 .expert-partners #testimonials span{
     font-size: 14px;
     margin-bottom: 20px;
@@ -302,6 +307,18 @@ font-size: 50px;
     line-height: 1.2rem;
 }
 
+#nat{
+    background-color: #ffa7a7;
+}
+
+#celia {
+    background-color:rgb(255, 208, 119);
+}
+
+#bob{
+    background-color: lightgreen;
+}
+
 .expert-partners #nat,
 .expert-partners #celia,
 .expert-partners #bob{
@@ -309,7 +326,6 @@ font-size: 50px;
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    background-color: #ffa7a7;
     border-radius: 20px;
     margin-bottom: 30px;
 }
