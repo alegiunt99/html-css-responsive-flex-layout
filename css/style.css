@@ -49,7 +49,11 @@ header{
     font-size: 28px;
 }
 
+/********************** END HEADER *********************/
+
 /*********************** MAIN ***********************/
+
+/* SECTION 1 */
 
 .get-demo{
     width: 100%;
@@ -160,6 +164,23 @@ font-size: 50px;
 }
 
 
+/*      END SECTION 1     */
+
+.font-img{
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+.font-img a{
+    color: black;
+    text-decoration: underline rgb(133, 133, 245);
+}
+
+/*      SECTION 2      */
+
+
+
+/*     END SECTION 2    */
 
 /*media queries*/
 
