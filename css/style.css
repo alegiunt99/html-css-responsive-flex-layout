@@ -34,3 +34,15 @@ body{
 
 
 /*media queries*/
+
+@media screen and (min-width: 390px) {
+    
+}
+
+@media screen and (min-width: 840px){
+
+}
+
+@media screen and (min-width: 1920px){
+    
+}
