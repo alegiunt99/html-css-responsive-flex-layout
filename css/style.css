@@ -24,8 +24,25 @@ body{
 
 /* content */
 
+header{
+    background-color: rgb(25, 109, 235);
+}
 
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
 
+.header-content > *{
+    display: inline-block;
+}
+
+.header-content h1{
+    font-size: 28px;
+}
 
 
 
