@@ -346,6 +346,10 @@ font-size: 50px;
 
 
 
+
+
+
+
 /*      SECTION 4         */
 
 .benefits{
@@ -409,6 +413,17 @@ font-size: 50px;
 /*     END SECTION 4      */
 
 
+
+
+/*     SECTION 5           */
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*     END SECTION 5       */
 /*media queries*/
 
 @media screen and (min-width: 390px) {
