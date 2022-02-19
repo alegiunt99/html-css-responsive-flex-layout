@@ -673,6 +673,23 @@ footer #footer-text a:hover{
         width: 48%;
         margin-right: 2%;
     }
+
+    .about-us {
+        flex-direction: row;
+    }
+
+    .about-us #poema{
+        width: 65%;
+    }
+
+    #help-companies a{
+        font-size: 11px;
+    }
+
+    .about-us #help-companies{
+        width: 35%;
+        align-self: flex-start;
+    }
 }
 
 @media screen and (min-width: 840px){
