@@ -667,6 +667,7 @@ footer #footer-text a:hover{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .benefits .fourth-sec-squares{
@@ -707,5 +708,28 @@ footer #footer-text a:hover{
         flex-direction: row;
     }
 
+   
+
+    .strat-planning .strt-pln {
+        display: flex;
+        flex-direction: row;
+
+    }
     
+    .strat-planning #strategy{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .strat-planning #app-development{
+        width: 48%;
+        margin-left: 2%;
+    }
+
+    .benefits .fourth-sec-squares{
+        width: 30%;
+        margin-right: 2%;
+    }
+
+
 }
