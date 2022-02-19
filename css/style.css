@@ -100,7 +100,7 @@ font-size: 50px;
     background-color: #6fa7eb;
 }
 
-#get-app div{
+#get-app #image-phone{
     background-color: #d7d2b9;
     width: 172px;
     height: 195px;
@@ -359,6 +359,7 @@ font-size: 50px;
     align-items: center;
     background-color: rgb(163, 91, 245);
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 .benefits #title-benef{
@@ -435,7 +436,7 @@ font-size: 50px;
     border-radius: 50%;
 }
 
-#help-companies i{
+#help-companies .fa-quote-right{
     position: absolute;
     font-size: 70px;
     left: 37%;
@@ -454,10 +455,14 @@ font-size: 50px;
     font-size: 12px;
     text-decoration: none;
     color: white;
-    background-color: rgb(163 91 245);
+    background-color: rgb(163, 91, 245);
     padding: 10px 24px;
     border-radius: 25px;
     align-self: flex-start;
+}
+
+#help-companies a:hover{
+    background-color: rgb(186, 136, 243);
 }
 
 .about-us #help-companies{
@@ -477,6 +482,14 @@ font-size: 50px;
 
 
 
+/*      SECTION 6         */  
+
+.last-section{
+    width: 100%;
+    background-color: #a35bf5;
+}
+
+/*         END SECTION 6     */
 
 
 /*media queries*/
