@@ -489,6 +489,61 @@ font-size: 50px;
     background-color: #a35bf5;
 }
 
+.free-offer > * {
+    margin-bottom: 20px;
+}
+
+.free-offer #get-start{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.free-offer h2{
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.free-offer h1{
+    font-size: 52px;
+    color: orange;
+}
+
+.free-offer p{
+    font-size: 16px;
+}
+
+.free-offer #white-button{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(163 91 245);
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.free-offer #white-button:hover{
+    background-color: #d49fef;
+}
+
+.free-offer #copyright{
+    font-size: 10px;
+}
+
+.free-offer #copyright i{
+    font-size: 4px;
+}
+
+
+.last-section .free-offer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
 /*         END SECTION 6     */
 
 
