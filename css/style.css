@@ -540,7 +540,9 @@ font-size: 50px;
 }
 
 .free-offer #copyright i{
-    font-size: 4px;
+    font-size: 2px;
+    vertical-align: middle;
+    margin: 0px 2px;
 }
 
 
@@ -554,6 +556,41 @@ font-size: 50px;
 }
 
 /*         END SECTION 6     */
+
+
+
+/********************FOOTER***************************/
+
+
+
+footer{
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+
+footer #footer-text{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer #footer-text p{
+    margin-bottom: 30px;
+}
+
+footer #footer-text a{
+    color: #6fa7eb;
+}
+
+footer #footer-text a:hover{
+    color:#0072ff;
+}
 
 
 /*media queries*/
