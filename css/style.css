@@ -422,6 +422,7 @@ font-size: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #poema p{
@@ -528,6 +529,14 @@ font-size: 50px;
 
 .free-offer #copyright{
     font-size: 10px;
+}
+
+.free-offer #copyright a{
+    color: white;
+}
+
+.free-offer #copyright a:hover{
+    color: #98c6ff;
 }
 
 .free-offer #copyright i{
