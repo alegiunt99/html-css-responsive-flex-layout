@@ -693,9 +693,19 @@ footer #footer-text a:hover{
 }
 
 @media screen and (min-width: 840px){
+    #get-app #text{
+        width: 60%;
+    }
 
-}
+    #get-app #image-phone{
+        align-self: flex-end;
+        width: 178px;
+        height: 229px;
+    }
+    
+    .get-demo #get-app{
+        flex-direction: row;
+    }
 
-@media screen and (min-width: 1920px){
     
 }
