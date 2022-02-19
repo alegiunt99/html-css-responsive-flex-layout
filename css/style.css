@@ -596,6 +596,68 @@ footer #footer-text a:hover{
 /*media queries*/
 
 @media screen and (min-width: 390px) {
+    .get-demo{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .get-demo h2{
+        font-size: 22px;
+    }
+
+    .get-demo #get-app{
+        justify-content: space-between;
+        width: 68%;
+        margin-right: 2%;
+    }
+
+    .get-demo #clean-code{
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    #web-design{
+        margin-right: 4%;
+    }
+
+    
+    
+    .get-demo #web-design,
+    .get-demo #development,
+    .get-demo #branding{
+        width: 48%;
+    }
+
+
+    .get-demo #clean-code,
+    .get-demo #web-design,
+    .get-demo #development,
+    .get-demo #branding{
+        text-align: center;
+    
+    }
+}
+
+@media screen and (min-width: 550px){
+
+    .get-demo #web-design,
+    .get-demo #development,
+    .get-demo #branding{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .expert-partners #nat,
+    .expert-partners #celia,
+    .expert-partners #bob{
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .partner-photo img{
+        width: 70%;
+    }
+
     
 }
 
